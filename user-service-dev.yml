@@ -11,7 +11,7 @@ spring:
      driver-class-name: com.mysql.cj.jdbc.Driver
   #임의 값
 gateway:
-  ip: 172.18.0.9/16
+  ip: 172.16.100.174
   
 token:
   expiration_time: 86400000
