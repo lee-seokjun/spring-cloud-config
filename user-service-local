@@ -6,7 +6,12 @@ spring:
      password: "{cipher}AQAChv8q6+vkJYVH6TZHy6lrCpjecdyOdD8aw4LS5R5gROI2HTl0P54lIHw+XeAmAtHj09O3T8RYBo6aAJwU805t9KVqtqsg6tQ3km1kfcEmrADBu0r0++mcotnt32vfT/jjV3UPx5PElqFKtbdZtFQ7Oiu6er16kdqKnKwhqyxi1xaHkPIuQ2wfirm0VihI4jABATTLJORPjWjlbdY4a9tQ9wASP2WpM4TP/N0GGojL2VvFwyovyBTeZcoeBdr50uUG0YCwLGy4oSHhvbdwSWRmD0GzjjDpAuTxneBdLskhHvMTjrJVsWEzqZJm1iW0uT8Fe/Q78ngnTmXM7ND4g4r0Akji9Cebb2dfDMPgRaEdJnA6OuRFEks803VRDa385xM="
     # #{cipher} 뒤에가 암호값이라는걸 의미
   #임의 값
-
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+      path: /h2-console
   
 token:
   expiration_time: 86400000
