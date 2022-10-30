@@ -6,6 +6,11 @@ spring:
      password: "{cipher}AQAvfVlBFiesu0oz2KrwveB2D9IuSbdj63B1mQ8yMTB6Jupl9E8VcQCYJXH0JFdms33pJu9+n0VLEYItUgkcAUzGjDpGKIz6pvzCf3X6flpyAGoYV0K0PraFPcx8gIWg1vwTI8Z1PlRwcYSPvuCs6GwJEQP8ZJGD+nRIdLpBIMAlqIAwFG0Km9+iEPg+R/LgwEIRFd2z40QMC8wqNQnhWgRB/W6jRgYusg/TIrxL/pv34qsWncNe/KezMffQ3j/H1weQsD+FTe9ZbNRqTuNDLCBITlOaE+2SOk30MqVb/T24uDeRDZvA9tyQx1lMtbzFEIqI8h7kEtrqmu9Dxl/Fh+WIyPLID94CVd0O8FVj1VEhy2U6HAlGcqn8tZ7thLywCto="
     # #{cipher} 뒤에가 암호값이라는걸 의미
   #임의 값
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  
   h2:
     console:
       enabled: true
