@@ -3,8 +3,7 @@ spring:
      driver-class-name: org.h2.Driver
      url: jdbc:h2:mem:testdb
      username: sa
-     password: "{cipher}AQAvfVlBFiesu0oz2KrwveB2D9IuSbdj63B1mQ8yMTB6Jupl9E8VcQCYJXH0JFdms33pJu9+n0VLEYItUgkcAUzGjDpGKIz6pvzCf3X6flpyAGoYV0K0PraFPcx8gIWg1vwTI8Z1PlRwcYSPvuCs6GwJEQP8ZJGD+nRIdLpBIMAlqIAwFG0Km9+iEPg+R/LgwEIRFd2z40QMC8wqNQnhWgRB/W6jRgYusg/TIrxL/pv34qsWncNe/KezMffQ3j/H1weQsD+FTe9ZbNRqTuNDLCBITlOaE+2SOk30MqVb/T24uDeRDZvA9tyQx1lMtbzFEIqI8h7kEtrqmu9Dxl/Fh+WIyPLID94CVd0O8FVj1VEhy2U6HAlGcqn8tZ7thLywCto="
-    # #{cipher} 뒤에가 암호값이라는걸 의미
+     password: "{cipher}AQB3Kn7CUOPeGYqBwwlk+cluDbXShSFtTqv6H75Pl3WmStlxpWB//gHTSFWHsLEGFgPpGIquGVoKFo5EtfLjj4D3nLYfblq7FVttARoxL6SDt9RMJkAOQsBg4kb32ONwvzSL1JLV3S2Xb8h3/QvFzEaZCPrqAhZ8DDxYC1fH5nSsPAn5E7Tzkz/HQ/eOK8GBP9+pkBcLoF0mFuPa/xWJqSkpWwhYvO+iMDmE+8AXiuIJ0FAlJsvP12ejsxnoLElbK8jjqWgdh2F7qYzjh4rriDnR+GJcvfbC6CgZhTDRvnM5/JVuUiaDQ59qUFCEkfZz1eK+0Qloa3GR7d9B92FZr8QNofm9odTQ3JXWzmFCBzfHsq/SzllJSuhG3fC98tKZjQw=    # #{cipher} 뒤에가 암호값이라는걸 의미
   #임의 값
   jpa:
     hibernate:
@@ -20,8 +19,7 @@ spring:
   
 token:
   expiration_time: 86400000
-  secret: "{cipher}AQAyWWe8tiARAYaJSfyKR2yFy6Shc3Wh6seMsHnOIKHGJF10D5RjEGG1F0kHgu2o1vpoJDM57Pw+UXxT6C6lpyiAZg4L9EJXvmDMl6iBn4V8j02NcDeYS7f921hkzpf6QEt6Xi5knbpy38604oL6K3fTgSyUpzMqSg7xUhvFzqHhqtA1eFypO3AJ7rODdgZKJIgHTbomYOz6yVmwvPLsvc3CRuPNltcAARA7ikQh96cobWJJDnLUn/1JcKFIWNRxMoNYFEe54G6oe9F/lIknCqwwi0o7C3KPYnWyoIepps6s1bBSp9/Mgm/rzILJ+JXitbK9SCtkjZgafi3aDHq2Pd1WTUsbXi9Q5tsfT7tfGrL6lvjsMFwvuuhZpjz2svMp0rc="
-
+  secret: "{cipher}AQBqcsRDh8NWeU2zcyCNT1A23uri13vX/7nXNYDKt4awLmUVXzmrNLur+a4jgZ6hhrssqE3JkJi9gMtLy0hLUY177Hoh2C/ZMnOAYpz6x9g5GvGMGQCdBblqZVTGER3Tye7fC8X3S4T0uKeOONVDP79pgybgYCFMegxBKzEPUY1ju/Z9s5LNm3N+8rwfZK89NJx/zkUVIgOe1Gv163JcgUz0k4GkD5a1AwrR5E2bHeFZ6Br59gYG0BOE0nP8dWf2TGXJ3/ikbhhPX7+C4A4Dxy8YUHPbNMsYf643/Uer5ZQhP2VNRcPGjz61SAWJ+8XIL7Ejqjmn7t00DbV943KX0Dgd54ngJ4RmNkjyhz/101FLl+XFjZYIdE8BZsq1tbN1BNg=
 order_service:
   url: http://ORDER-SERVICE/order-service/%s/orders
   exception:
