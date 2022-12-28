@@ -1,12 +1,10 @@
 spring:
   r2dbc:
-    url: r2dbc:postgresql://localhost:15432/postgres
+    url: r2dbc:postgresql://185.213.243.3:5432/postgres
     username: postgres
     password: 1234
     pool:
       max-size: 100
-  application:
-    name: QNA-SERVICE
   config:
     import: "optional:configserver:"
   main:
